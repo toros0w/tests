@@ -20,7 +20,7 @@ function callEgg() {
   "mode": "cors",
 });
 }
-
+callEgg()
 if (callEgg()) {
     console.log('Injected');
 } else {
